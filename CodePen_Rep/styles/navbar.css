@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px;
+}
+
+.navbar > .left-column {
+    align-items: center;
+    padding: 0px 55px 0px 15px;
+   }
+
+.navbar > .left-column > .logo img{
+    width: 250px;
+}
+
+.navbar > .center-column {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    display: grid;
+    width: 550px;
+}    
+
+.navbar > .center-column > .explore {
+    margin: 0px;
+}
+
+.navbar > .center-column > .explore a {
+    text-decoration: none;
+    color: rgb(220, 213, 116);
+    font-weight: 500;
+}
+
+.navbar > .center-column > .links-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.navbar > .center-column > .links-wrapper > .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > .center-column > .links-wrapper > .links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.navbar > .center-column > .links-wrapper > .spark-link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar > .center-column > .links-wrapper > .spark-link a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+}
+
+.navbar > .right-column-btns {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.btn {
+    background-color: #434343;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 4px;
+    border: none;
+    height: 65px;
+    width: 120px;
+    transition: 0.3s;
+}
+
+.btn i{
+    color: #6ece6e;
+    font-size: 1.25em;
+}
+
+.navbar > .right-column-btns > .search-icon {
+    color: grey;
+    font-size: 3em;
+}
